@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  expo:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
+    ports: 
+      - 19000:19000
