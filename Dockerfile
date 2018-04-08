@@ -6,5 +6,5 @@ COPY entrypoint.sh /docker/entrypoint.sh
 
 WORKDIR /app
 ENTRYPOINT ["/bin/bash", "/docker/entrypoint.sh"]
-CMD ["exp", "start", "/app/test-project"]
+#CMD ["exp", "start", "/app/project"]
 EXPOSE 19000

@@ -9,3 +9,4 @@ services:
       - ./app:/app
     ports: 
       - 19000:19000
+    command: ["exp", "start", "/app/${PROJECT_NAME}"]
